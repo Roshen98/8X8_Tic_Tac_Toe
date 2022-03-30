@@ -1,5 +1,11 @@
 # 8X8_Tic_Tac_Toe
 
+COMPILATION: 
+
+g++ -o tic_tac_toe main.cpp
+./tic_tac_toe
+
+
 Game: 4-in-a-line
 
 You have an 8x8 board, players take turns placing a piece on any grid. First player to get 4 in a line (either a row, or a column; diagonals are NOT counted) wins. The amount of time allowed for generating the next move is 5 seconds. The search will stop when there's no time left. The program ask the user to decide who is going to move first. In order to make the process smooth, you are REQUIRED to use the following standard in the movement that your program will generate:
@@ -26,3 +32,6 @@ In general, 5 seconds is allowed to run the algorithm, which should search at le
 The program is one player, and will attempt to defeat the human operator. Here, "X" means "computer", "O" means "human".
 
 The program detects when an illegal move has been entered and requires the human to re-enter a valid move, for example, trying to place on a non-empty space, or out of bounds.
+
+
+NOTE: The game ends on either you or the AI gets four pieces in a row or column but not diagonally. 
