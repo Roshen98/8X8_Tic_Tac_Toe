@@ -34,4 +34,4 @@ The program is one player, and will attempt to defeat the human operator. Here, 
 The program detects when an illegal move has been entered and requires the human to re-enter a valid move, for example, trying to place on a non-empty space, or out of bounds.
 
 
-NOTE: The game ends on either you or the AI gets four pieces in a row or column but not diagonally. 
+NOTE: The game ends either because you or the AI has four pieces in a row or column but not diagonally. 
